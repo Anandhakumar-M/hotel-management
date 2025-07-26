@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "number": "100",
+    "type": "standard",
+    "price": 2000,
+    "capacity": 1,
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "image": "https://images.pexels.com/photos/27604135/pexels-photo-27604135.png",
+    "available": true
+  },
+  {
+    "id": 2,
+    "number": "101",
+    "image": "https://images.pexels.com/photos/3659683/pexels-photo-3659683.jpeg",
+    "type": "Standard",
+    "price": 3000,
+    "capacity": 2,
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC"
+    ],
+    "available": true
+  },
+  {
+    "id": 3,
+    "image": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+    "number": "102",
+    "type": "Deluxe",
+    "price": 6500,
+    "capacity": 3,
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC",
+      "Mini Bar"  
+    ],
+    "available": true
+  },
+  {
+    "id": 4,
+    "image": "https://images.pexels.com/photos/33125906/pexels-photo-33125906.jpeg",
+    "number": "201",
+    "type": "Suite",
+    "price": 10500,
+    "capacity": 4,
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC",
+      "Mini Bar",
+      "Balcony"
+    ],
+    "available": true
+  }
+]

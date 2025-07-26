@@ -1,0 +1,149 @@
+.book-room {
+  padding: 20px 0;
+}
+
+.book-room-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.book-room-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.book-room-header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.book-room-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.room-summary,
+.booking-form-container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room-summary h3,
+.booking-form-container h3 {
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.room-info p {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.amenities {
+  margin-top: 20px;
+}
+
+.amenities strong {
+  color: #1a1a1a;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-summary {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.booking-summary h4 {
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.summary-item.total {
+  border-top: 1px solid #e1e5e9;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.btn-book {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-book:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-book:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.room-unavailable-page {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.room-unavailable-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.room-unavailable-page p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .book-room-header h1 {
+    font-size: 2rem;
+  }
+  
+  .book-room-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .room-summary,
+  .booking-form-container {
+    padding: 20px;
+  }
+} 

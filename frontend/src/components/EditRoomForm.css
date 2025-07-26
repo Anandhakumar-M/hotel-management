@@ -1,0 +1,179 @@
+.edit-room-form {
+  padding: 20px;
+}
+
+.edit-room-form .form-group {
+  margin-bottom: 20px;
+}
+
+.edit-room-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-room-form input,
+.edit-room-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.edit-room-form input:focus,
+.edit-room-form select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+.edit-room-form input.error,
+.edit-room-form select.error {
+  border-color: #ff6b6b;
+}
+
+.edit-room-form .error-text {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.edit-room-form .amenities-input {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.edit-room-form .amenities-input input {
+  flex: 1;
+}
+
+.edit-room-form .amenities-input .btn-small {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s ease;
+}
+
+.edit-room-form .amenities-input .btn-small:hover {
+  background: #0056b3;
+}
+
+.edit-room-form .amenities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.edit-room-form .amenity-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #e9ecef;
+  color: #495057;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.edit-room-form .amenity-remove {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.edit-room-form .amenity-remove:hover {
+  background: #dc3545;
+  color: white;
+}
+
+.edit-room-form .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.edit-room-form .checkbox-label input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+}
+
+.edit-room-form .form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.edit-room-form .btn-primary,
+.edit-room-form .btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.edit-room-form .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.edit-room-form .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.edit-room-form .btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.edit-room-form .btn-secondary:hover {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .edit-room-form {
+    padding: 15px;
+  }
+  
+  .edit-room-form .amenities-input {
+    flex-direction: column;
+  }
+  
+  .edit-room-form .form-actions {
+    flex-direction: column;
+  }
+  
+  .edit-room-form .btn-primary,
+  .edit-room-form .btn-secondary {
+    width: 100%;
+  }
+} 

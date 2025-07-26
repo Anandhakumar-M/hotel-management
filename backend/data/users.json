@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@hotel.com",
+    "password": "$2a$10$hVCbzq3zbVsi3x985PV6J.5MJR4UGJ0UwxvoLizFIStBxHzNJl9Qy",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "user1",
+    "email": "user1@example.com",
+    "password": "$2a$10$2EMPR6yiiR3U1psJDx11T.JlIXGadFmIOsq0464WoM3sZp1BImzXK",
+    "role": "user"
+  }
+]

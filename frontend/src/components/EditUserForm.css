@@ -1,0 +1,98 @@
+.edit-user-form {
+  padding: 20px;
+}
+
+.edit-user-form .form-group {
+  margin-bottom: 20px;
+}
+
+.edit-user-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-user-form input,
+.edit-user-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.edit-user-form input:focus,
+.edit-user-form select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+.edit-user-form input.error,
+.edit-user-form select.error {
+  border-color: #ff6b6b;
+}
+
+.edit-user-form .error-text {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.edit-user-form .form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.edit-user-form .btn-primary,
+.edit-user-form .btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.edit-user-form .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.edit-user-form .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.edit-user-form .btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.edit-user-form .btn-secondary:hover {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .edit-user-form {
+    padding: 15px;
+  }
+  
+  .edit-user-form .form-actions {
+    flex-direction: column;
+  }
+  
+  .edit-user-form .btn-primary,
+  .edit-user-form .btn-secondary {
+    width: 100%;
+  }
+} 
